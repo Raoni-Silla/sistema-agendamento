@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="tituloPrincipal">Sistema de agendamento</h1>
+      <input type="button" value="criar novo agendamento" id="create" />
+    </header>
+    <main class="mainContent">
+      <dialog class="dialog">
+        <form action="#">
+          <h2 class="tituloDialogo">Criar <strong>agendamento</strong></h2>
+          <div class="msg"></div>
+          <label for="titulo"> titulo</label>
+          <input
+            type="text"
+            name="titulo"
+            id="titulo"
+            placeholder="insira um titulo"
+          />
+          <label for="hora">Hora do agendamento</label>
+          <input type="time" name="hora" id="hora" />
+          <label for="diaMes">dia do agendamento</label>
+          <input type="date" name="diaMes" id="diaMes" />
+          <input type="button" value="agendar" id="submitButton" />
+          <input type="button" value="fechar" id="closeButton" />
+        </form>
+      </dialog>
+      <section id="lista-agendamentos"></section>
+    </main>
+    <footer>
+      <h4 class="titulo-footer">feito por <a href="#">raoni-silla</a></h4>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

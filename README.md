@@ -84,17 +84,6 @@ Implementação de regras de negócio para integridade dos dados:
 
 ---
 
-## 🔮 Roadmap & Melhorias Futuras
-
-Este projeto é um protótipo funcional que evoluirá para um sistema robusto:
-- [ ] **Back-end:** Integração com Spring Boot (Java).
-- [ ] **Database:** Migração do LocalStorage para MySQL.
-- [ ] **UX:** Implementação de edição (Update) de agendamentos existentes.
-- [ ] **UI:** Ordenação automática por proximidade de data.
-- [ ] **Filtros:** Busca por período ou categoria de serviço.
-
----
-
 ## 👨‍💻 Autor
 
 Desenvolvido por **Raoni Silla** *Estudante de Análise e Desenvolvimento de Sistemas - FEMA (Assis/SP)*

@@ -1,8 +1,8 @@
 # 📅 Sistema de Agendamento - ChamaJá
 
-Este projeto faz parte do ecossistema **ChamaJá**, uma plataforma de intermediação de serviços locais. Este módulo foca especificamente no gerenciamento de compromissos, priorizando uma experiência de usuário fluida e persistência de dados no lado do cliente.
+ Este módulo foca especificamente no gerenciamento de compromissos, priorizando uma experiência de usuário fluida e persistência de dados no lado do cliente.
 
-Desenvolvido com **HTML, CSS e JavaScript puros (Vanilla JS)**, o projeto foca em manipulação de DOM, validação rigorosa de dados e armazenamento local.
+Desenvolvido com **HTML, CSS e JavaScript puros (Vanilla JS)**, o projeto foca em manipulação de DOM, validação  de dados e armazenamento local.
 
 ---
 
